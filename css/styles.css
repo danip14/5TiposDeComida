@@ -1,0 +1,118 @@
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 70% !important;
+  }
+}
+
+.bgColor {
+  border: 1px solid rgb(255, 128, 0);
+  background-color: rgb(241, 152, 44) !important;
+}
+.dropdownColor {
+  border: 1px solid rgb(255, 128, 0);
+  background-color: rgb(255, 151, 25) !important;
+}
+h1.hero-tittle {
+  font-family: "PT Serif", serif;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(124, 87, 2);
+  border: 1px solid rgb(187, 133, 9);
+  border-left: 0rem;
+  border-right: 0rem;
+  background-color: rgb(255, 246, 231);
+}
+.hero-author {
+  font-size: smaller;
+  color: rgb(117, 117, 117);
+}
+
+@media screen and (min-width: 700px) {
+  .hero-imagen {
+    max-width: 400px;
+  }
+  h2.section-title {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  #section1 > .container > h2.section-title {
+    padding-top: 3rem !important;
+  }
+  .hero-author {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .hero-p {
+    margin: 2rem;
+    margin-top: 0rem;
+    padding: 0rem 5rem 2rem 5rem;
+  }
+  .hr-responsivo {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero-imagen {
+    max-width: 300px;
+  }
+  .hero-author {
+    margin-top: 10%;
+    text-align: center;
+  }
+  .hero-p {
+    margin: 1rem;
+    margin-top: 0rem;
+  }
+  h2.section-title {
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+  .hr-responsivo {
+    margin-top: 4rem;
+    color: rgb(241, 152, 44);
+  }
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5 {
+  margin-bottom: 1rem;
+}
+
+p.intro-card-text {
+  font-family: "Roboto Serif", serif;
+  margin-bottom: 2rem;
+}
+
+/* #section1 > .container > h2.section-title {
+  padding-top: 1rem;
+} */
+
+.footer {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgb(39, 39, 39);
+  background-color: #f5f6f7;
+}
+.icon-list ul {
+  font-size: 25px;
+  list-style-type: none;
+}
+.icon-list ul li {
+  margin-left: 10px;
+}
+.icon-list ul li a {
+  color: rgb(255, 128, 0);
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+  display: none;
+}
